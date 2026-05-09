@@ -1,0 +1,14 @@
+﻿<Window x:Class="TimeBeat.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TimeBeat"
+        mc:Ignorable="d"
+        Title="Timer" Height="150" Width="300" ResizeMode="CanMinimize" Topmost="True" Left="0" Top="0">
+    <Grid>
+        <TextBlock x:Name="Timer" HorizontalAlignment="Center" TextWrapping="Wrap" Text="00:00:00" VerticalAlignment="Center" FontSize="36"/>
+        <Button x:Name="StartStop" Content="Start / Stop" HorizontalAlignment="Left" Margin="8,0,0,8" VerticalAlignment="Bottom" Click="StartStop_Click" />
+
+    </Grid>
+</Window>
